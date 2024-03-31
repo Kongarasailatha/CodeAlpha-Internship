@@ -15,19 +15,21 @@
 • The target variable (denoting good or bad credit risk) is separated from the features using .iloc.
 -> y: Represents the target variable.
 ->X: Represents the features used for prediction.
-3) Train-Test Split The code splits the data into training and testing sets using train_test_split: 
+#### 3) Train-Test Split: The code splits the data into training and testing sets using train_test_split: 
 • X_train: Training data features for model training. 
 • X_test: Testing data features for model evaluation.
 • y_train: Training data target labels for model training. 
 • y_test: Testing data target labels for model evaluation. The test size is set to 20% (test_size=0.2) using a random seed (random_state=0) for reproducibility.
-4) This can improve the performance of some machine learning models. The scaler is then used to transform the features in the testing set (X_test) using the same parameters learned from the training data.
-5) Model Training and Saving • A Logistic Regression classifier is created (classifier). 
+
+#### 4) Model Training and Saving 
+• A Logistic Regression classifier is created (classifier). 
 • The model is trained on the training data (classifier.fit(X_train, y_train))
 • The trained model is saved using joblib.dump for later use.
-6) Prediction and Evaluation
+#### 5) Prediction and Evaluation
 -> The model makes predictions on the testing data (y_pred = classifier.predict(X_test)) 
 -> The accuracy score is the proportion of predictions that were correct.
-7) Generating Prediction Probabilities • The model predicts probabilities of belonging to each class (classifier.predict_proba(X_test)) for the test data. 
+#### 6) Generating Prediction Probabilities
+• The model predicts probabilities of belonging to each class (classifier.predict_proba(X_test)) for the test data. 
 • This results in a NumPy array with two columns, likely representing probabilities for good and bad credit risk. 
 • These probabilities are stored in a DataFrame named df_prediction_prob.
 ### Benefits of a financial credit scoring model include:
