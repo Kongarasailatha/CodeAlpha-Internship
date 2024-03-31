@@ -1,7 +1,8 @@
 # Credit Scoring Model-using-Machine-Learning
  The Python code for building a credit scoring model using Logistic Regression. 
 ### Libraries
-#### 1) Libraries and Data Loading The code imports necessary libraries: • pandas: Data manipulation 
+#### 1) Libraries and Data Loading The code imports necessary libraries: 
+• pandas: Data manipulation 
 • numpy: Numerical operations 
 • sklearn.model_selection: Train-test split 
 • sklearn.preprocessing: Data scaling • sklearn.metrics: Model evaluation metrics 
