@@ -82,7 +82,7 @@ Disease Recommendation will be available infront of the labels of algorithm of u
 #  Handwritten Character Recognition
 #### About the Project:
 Developed a machine learning model for recognizing handwritten characters.
-Implemented a Convolutional Neural Network (CNN) architecture for improved accuracy.
+
 #### Key Achievements:
 
 1) Achieved over 95% accuracy on the test dataset.
