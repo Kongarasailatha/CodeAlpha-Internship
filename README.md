@@ -1,5 +1,5 @@
 # Credit Scoring Model-using-Machine-Learning
-This document explains the Python code for building a credit scoring model using Logistic Regression. 
+ The Python code for building a credit scoring model using Logistic Regression. 
 ### Libraries
 #### 1) Libraries and Data Loading The code imports necessary libraries: • pandas: Data manipulation 
 • numpy: Numerical operations 
@@ -30,10 +30,11 @@ This document explains the Python code for building a credit scoring model using
 • This results in a NumPy array with two columns, likely representing probabilities for good and bad credit risk. 
 • These probabilities are stored in a DataFrame named df_prediction_prob.
 ### Benefits of a financial credit scoring model include:
--> Efficiency: Automating the loan approval process, saving time and resources for lenders.
-->Consistency: Providing a standardized approach to credit assessment, reducing bias and subjective decision-making.
-->Risk Management: Helping lenders manage risk by identifying high-risk applicants and adjusting loan terms accordingly.
-->Access to Credit: Facilitating access to credit for individuals with limited credit history or unconventional financial backgrounds.
+1) Efficiency: Automating the loan approval process, saving time and resources for lenders.
+2) Consistency: Providing a standardized approach to credit assessment, reducing bias and subjective decision-making.
+3) Risk Management: Helping lenders manage risk by identifying high-risk applicants and adjusting loan terms accordingly.
+4) Access to Credit: Facilitating access to credit for individuals with limited credit history or unconventional financial backgrounds.
+
 
 # Diseases Prediction By using Machine Learning
  To share my internship project at CodeAlpha: Disease Prediction Task!
@@ -48,17 +49,68 @@ Implementing various machine learning algorithms for prediction.
 To accurately predict the likelihood of disease based on symptoms.
 To improve early detection and diagnosis of diseases.
 To contribute to advancements in healthcare technology.
-🔍 Approach:
+### PythonCodeOfAlgorithm.py
+This is the file which consist of dataset and there are various differnt algorithms used for training of our model which are as follows:
 
-Exploring different machine learning algorithms such as decision trees, random forests, and neural networks.
-Utilizing data preprocessing and feature engineering techniques for model training.
-Evaluating model performance using metrics such as accuracy, precision, recall, and F1 score.
-🚀 Impact:
+1) Decision Tree
+2) Random Forest
+3) Naive Bayes These Three algorithms is used to train our model and all gives an accuracy of over 90
+### Explanation of Files
+#### Training.csv
+->This is the main dataset which has been used in this project. This dataset consist of mainly two columns "Disease" and "Symptoms" but this dataset is preprocessed so it helps in easily clasifying the data. This dataset is used to train our model.
+#### Testing.csv
+->This is the dataset which has been used to test our model so that we can know the accuracy of our model. this dataset is predefined with output.
+### Working with GUI
+#### Step 1:
+Enter the name in the provided space infront of the label as "Name of the Patient". It is the mandatory field which user have to enter in order to get result.
+#### Step-2:
+Select 5 Symptoms from the dropdown menu which are labelled as Symptom 1, Symptom 2, Symptom 3, Symptom 4, Symptom 5 respectively. If user is not aware of 5 symptoms then it is mandatory for him to enter atleast 2 starting systems, otherwise the result will not come and a message box will pop up for the same
+#### Step-3:
+As per user interest,he/she can predict the disease using different algorithms such as Decision tree algorithm, Random forest algorithm, Naive bayes algorithm and K-Nearest neighbour. According to algorithm click on buttons:
+Press Prediction 1 for Decision tree algorithm
+Press Prediction 2 for Random forest algorithm
+Press Prediction 3 for Naive bayes algorithm
+(User can predict the disease using more than one algorithm at a time)
+#### Step-4:
+Disease Recommendation will be available infront of the labels of algorithm of user's choice.
+### A picture of GUI Interface
+![disease img](https://github.com/Kongarasailatha/CodeAlpha-Internship/assets/140708197/4edf073d-a24f-49f7-b530-98de1075feb6)
 
-Enhancing healthcare services by enabling early intervention and treatment.
-Empowering patients with valuable insights into their health.
-Contributing to the development of predictive healthcare technologies.
-👉 Looking for Opportunities:
+#  Handwritten Character Recognition
+#### About the Project:
+Developed a machine learning model for recognizing handwritten characters.
+Implemented a Convolutional Neural Network (CNN) architecture for improved accuracy.
+#### Key Achievements:
 
-Open to collaborations, internships, or research opportunities in the field of healthcare and machine learning.
-📩 Reach out: Interested in learning more? Feel free to message me or connect on LinkedIn!
+1) Achieved over 95% accuracy on the test dataset.
+2)Enhanced user interface for seamless user interaction.
+#### Features
+Here are some potential features you could include in your handwritten character recognition project:
+
+1. Model Training: Train a machine learning model using the MNIST dataset, which contains 60,000 training images and 10,000 testing images of handwritten digits.
+
+2. Convolutional Neural Network (CNN): Implement a CNN architecture for recognizing handwritten characters. CNNs are particularly effective for image recognition tasks.
+
+3. Model Evaluation: Evaluate the trained model's performance using metrics such as accuracy, precision, recall, and F1 score.
+
+4. Deployment: Deploy the trained model using Flask, a lightweight web application framework, to create a web interface for users to interact with.
+
+5. Web Interface: Create a user-friendly web interface where users can input handwritten characters and see the model's predictions.
+
+6. Data Augmentation: Implement data augmentation techniques to increase the diversity of the training dataset, which can improve the model's performance.
+
+7. Hyperparameter Tuning: Experiment with different hyperparameters (e.g., learning rate, batch size, number of layers) to optimize the model's performance.
+
+8. Error Analysis: Conduct error analysis to identify patterns in the model's mistakes and improve its accuracy.
+
+9. Model Interpretability: Explore techniques to make the model more interpretable, such as visualizing the activations of different layers.
+
+These features can help you develop a robust and effective handwritten character recognition system.
+ScreenShots of Handwritten Recoginition:
+![handwritten img1](https://github.com/Kongarasailatha/CodeAlpha-Internship/assets/140708197/9572316e-31e0-4b2e-84b6-a0b4f1387ff5)
+![handwritten img2](https://github.com/Kongarasailatha/CodeAlpha-Internship/assets/140708197/58ce69c6-d7d1-4d96-b44a-132b885e85af)
+![handwritten img 3](https://github.com/Kongarasailatha/CodeAlpha-Internship/assets/140708197/aafe9fa7-8076-432d-8b8e-14528cee285e)
+
+
+
+
